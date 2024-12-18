@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="harishsample.Harish1">
+      <class name="abcd_datadriven.abcd_datadriven">
         <methods>
-          <include name="beforeTest"/>
-          <include name="test"/>
+          <include name="performLoginLogout"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- harishsample.Harish1 -->
+      </class> <!-- abcd_datadriven.abcd_datadriven -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
